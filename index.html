@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Cv</title>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        .card img h4 p {
+            background-color: brown;
+            margin-top: 50px;
+            height: 100px;
+            border-style: solid;
+            border-radius: 100px;
+        }
+
+        .card {
+            border-radius: 15px;
+        }
+
+        .paragraph h3 {
+            text-align: center;
+            margin-top: -370px;
+        }
+
+        .paragraph p {
+            margin-left: 270px;
+        }
+
+        .paragrap hr {
+            color: black;
+            margin-top: -240px;
+            width: 100%;
+        }
+
+        .list {
+            margin-left: 270px;
+        }
+
+        .forms h4 {
+            margin-top: 150px;
+            margin-left: 50px;
+        }
+
+        .forms input {
+            align-items: center;
+            padding: 5px;
+            position: relative;
+            margin: 0 auto;
+            margin-left: 15px;
+        }
+
+        .table th,
+        td {
+            width: 200px;
+            border: 1px solid black;
+            height: 50px;
+            margin-top: -300px;
+        }
+
+        .table h2 {
+            margin-top: -93%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Simple CV</h1>
+
+    </div>
+
+    <div class="card">
+        <img src="images/hetemm.jpg" style="width:250px">
+        <div class="container">
+
+            <p>-Name: <b>Hetem Sylejmani</b></p>
+            <p>-Study: <b>Web developer</b>
+            <p>-Location <b>Mitrovica, Kosovo</b></p>
+
+        </div>
+    </div>
+</body>
+<hr>
+<div class="paragraph">
+    <H3>ABOUT ME</H3>
+    <hr>
+    <p>Unë jam <b>Hetem Sylejmani</b> nga qyteti i Mitrovicës, jam 17 vjet kam përfunduar shkollën fillore dhe tani
+        të mesmen.
+        - Tani objektivi im është të bëhem programer e për këtë më duhet të studioj shkenca kompjuterike në
+        drejtimin
+        <b>Web Developer</b>, aktualisht jam
+        duke
+        ndjekur bootcampin <a href="https://bootcamp.perprogramera.com/">"Për Programera"</a>
+        me profesor <b>Ylber Veliu</b> dhe padyshim është një nga eksperiencat më të mira në jetën
+        time!
+    </p>
+
+    <p>- Disa nga gjuhët e programimit që duhet t'i mësoj:</p>
+    <div class="list">
+        <ul>
+            <li> HTML 5</li>
+            <li>JavaScript</li>
+            <li>CSS 3</li>
+            <li>Bootstrap 5</li>
+        </ul>
+
+
+    </div>
+
+</div>
+
+<div class="forms">
+    <h4>Contact Form</h4>
+    <form>
+        <input type="text" placeholder="Enter your name" />
+        <br></br>
+        <input type="tel" placeholder="Phone number" />
+        <br></br>
+        <input type="email" placeholder="johnsmith@gmail.com" />
+        <br></br>
+        <input type="password" placeholder="Password" />
+        <br></br>
+        <input type="number" min="0" max="10" value="2" />
+        <br></br>
+        <input type="color" />
+        <br></br>
+        <input type="time" />
+        <br></br>
+        <input type="date" />
+        <br></br>
+        <input type="datetime-local" />
+        <br></br>
+        <input type="week" />
+        <br></br>
+        <input type="checkbox" id="Nike" />
+        <label for="Nike">Nike</label>
+        <br></br>
+        <input type="checkbox" id="Adiddas" />
+        <label for="Adiddas">Adiddas</label>
+        <br></br>
+        <input type="checkbox" id="Puma" />
+        <label for="Puma">Puma</label>
+        <br></br>
+        <input type="range" />
+        <br></br>
+        <input type="button" />
+        <br></br>
+        <input type="file" />
+        <br></br>
+        <button type="submit">Submit</button>
+        <br></br>
+        <input type="reset" />
+        <br></br>
+        <input type="radio" />
+        <br></br>
+        <textarea cols="30" rows="5" placeholder="Write something"></textarea>
+        <br></br>
+        <input type="url" placeholder="URL">
+        <br></br>
+        <label for="browser">Choose your browser from the list!</label>
+        <br></br>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <br></br>
+        <label for="file">File Progress:</label>
+        <progress id="file" max="100" value="70">70%</progress>
+        <br></br>
+        <legend>Choose your favorite monster</legend>
+        <input type="radio" id="kraken" name="monster">
+        <label for="kraken">Kraken</label><br />
+
+        <input type="radio" id="sasquatch" name="monster">
+        <label for="kraken">Saschuatch</label><br />
+
+        <input type="radio" id="kraken" name="monster">
+        <label for="mothman">Mothman</label><br />
+
+
+
+
+
+    </form>
+</div>
+</div>
+
+<div class="table">
+    <h2>Nje tabel e thjeshte HTML</h2>
+
+    <table align="center">
+        <tr>
+            <th>Football Club</th>
+            <th>Value</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Real Madrid</td>
+            <td>$5.1 billion</td>
+            <td>Spain</td>
+        </tr>
+        <tr>
+            <td>Bayern Munich</td>
+            <td>$1.47 billion</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Juventus</td>
+            <td>$1.51 billion</td>
+            <td>Italy</td>
+        </tr>
+
+
+
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
